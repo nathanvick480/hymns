@@ -75,6 +75,22 @@
             break-inside: avoid;
         }
 
+        @media (min-width: 576px) and (max-width: 991px) {
+            .multiple-columns-3 {
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+            }
+        }
+
+        @media (max-width: 575px) {
+            .multiple-columns-3 {
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-count: 1;
+            }
+        }
+
     </style>
 
 </head>
@@ -82,7 +98,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img src="/assets/note.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="assets/note.svg" width="30" height="30" class="d-inline-block align-top" alt="">
             Hymnology
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +117,7 @@
         </div>
     </div>
     <div class="container-fluid mt-3">
-        <div class="row mb-4">
+        <div class="row mb-2">
             <div class="col-md-7 offset-md-1">
                 <p>Christianity has a rich history of music, dating all the way back to the New Testament era and connecting with the Jewish music tradition before it. Throughout the years, Christians have sung many types of music, but three forms have become especially associated with Christianity: Gregorian chant, polyphony, and hymns. This site focuses on hymnology, an art which possesses great depth but has been largely forgotten in many parts of the church.</p>
 
@@ -119,7 +135,7 @@
                 <hr />
 
                 <h2>Index of Hymn Tunes</h2>
-                <div class="multiple-columns-3 mt-3">
+                <div class="multiple-columns-3 my-3">
                     <p>Antioch</p>
                     <p>Ebenezer</p>
                     <p>Nicaea</p>
