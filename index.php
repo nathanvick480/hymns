@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Asbury Hymn Project</title>
+
+    <style>
+        .navbar-dark {
+            background: #372400 !important;
+        }
+
+        #footer {
+            background: #372400;
+            color: #FFFFFF;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,26 +50,22 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pb-3">
             <div class="col-sm-6">
                 <div class="card">
                     <h5 class="card-header">Hymns</h5>
                     <ul class="list-group list-group-flush">
                         <?php
 
-                            //$app = require __DIR__ . '/../src/web.php';
-
-                            //$app->run();
-
                             include '../info.php';
 
-                            $sql = "SELECT hymn_text_name FROM hymn_texts";
+                            $sql = "SELECT name FROM Hymns";
                             $result = $conn->query($sql);
 
                             if ($result->num_rows > 0) {
                                 // output data of each row
                                 while($row = $result->fetch_assoc()) {
-                                    echo "<li class='list-group-item'>" . $row["hymn_text_name"]. "</li>";
+                                    echo "<li class='list-group-item'>" . $row["name"]. "</li>";
                                 }
                             } else {
                                 echo "0 results";
@@ -67,6 +74,11 @@
                         ?>
                     </ul>
                 </div>
+            </div>
+        </div>
+        <div id="footer" class="row py-3">
+            <div class="col-sm-12">
+                <p>Footer</p>
             </div>
         </div>
     </div>
