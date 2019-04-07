@@ -1,0 +1,62 @@
+body {
+    font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+#navbar.navbar-dark {
+    background: #372400 !important;
+}
+
+#navbar .nav-link i {
+    padding-right: 3px;
+}
+
+/*** MENU STYLES ***/
+
+#page-home .nav-item-home a {
+    color: #FFFFFF;
+}
+
+#page-hymns .nav-item-hymns a {
+    color: #FFFFFF;
+}
+
+/*** JUMBOTRON ***/
+
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/hymnbook.jpg');
+    background-position: center center;
+    color: #FFFFFF;
+    margin-bottom: 0rem;
+}
+
+#header h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#main-highlights {
+    background: #22433D;
+}
+
+#main-highlights a path {
+    fill: #f18f01;
+    transition: fill 0.25s ease;
+}
+
+#main-highlights a:hover path {
+    fill: #ffffff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#footer {
+    background: #372400;
+    color: #FFFFFF;
+}
+
+#footer p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    opacity: 0.7;
+}
