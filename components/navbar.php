@@ -12,13 +12,13 @@
                     <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
                 </li>
                 <li class="nav-item nav-item-about">
-                    <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About</a>
+                    <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About</a>
                 </li>
                 <li class="nav-item nav-item-hymns">
-                    <a class="nav-link" href="/all-hymns"><i class="fas fa-music"></i> All Hymns</a>
+                    <a class="nav-link" href="/hymns"><i class="fas fa-music"></i> Hymns</a>
                 </li>
                 <li class="nav-item nav-item-classhymns">
-                    <a class="nav-link" href="#"><i class="fas fa-user-friends"></i> Class Hymns</a>
+                    <a class="nav-link" href="/class-hymns"><i class="fas fa-user-friends"></i> Class Hymns</a>
                 </li>
             </ul>
         </div>

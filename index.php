@@ -48,4 +48,10 @@
 
             </div>
         </div>
-        <?php include 'components/footer.php'; ?>
+    </div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+    </nav>
+    <?php include 'components/footer.php'; ?>

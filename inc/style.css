@@ -1,5 +1,10 @@
 body {
+    background: #FFF6E6;
     font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Noto Serif SC', 'Lato', 'Helvetica', sans-serif;
 }
 
 #navbar.navbar-dark {
@@ -16,7 +21,15 @@ body {
     color: #FFFFFF;
 }
 
+#page-about .nav-item-about a {
+    color: #FFFFFF;
+}
+
 #page-hymns .nav-item-hymns a {
+    color: #FFFFFF;
+}
+
+#page-classhymns .nav-item-classhymns a {
     color: #FFFFFF;
 }
 
@@ -47,6 +60,40 @@ body {
 #main-highlights a:hover path {
     fill: #ffffff;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+    #main-highlights .svg-wrapper {
+        margin-bottom: 25px;
+    }
+}
+
+.green-audio-player {
+    width: 100%;
+    min-width: 250px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+audio {
+    width: 100%;
+}
+
+.breadcrumb {
+    background: #29524A;
+    border-radius: 0px;
+}
+
+.breadcrumb-item a {
+    color: #FFFFFF;
+}
+
+.breadcrumb-item a:hover {
+    color: #fff;
+}
+
+.breadcrumb-item.active {
+    color: #bcbcbc;
 }
 
 #footer {
