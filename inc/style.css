@@ -68,11 +68,8 @@ h1, h2, h3 {
     }
 }
 
-.green-audio-player {
-    width: 100%;
-    min-width: 250px;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+.blockquote i {
+    color: #372400;
 }
 
 audio {
