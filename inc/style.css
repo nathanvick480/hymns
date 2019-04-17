@@ -17,18 +17,10 @@ h1, h2, h3 {
 
 /*** MENU STYLES ***/
 
-#page-home .nav-item-home a {
-    color: #FFFFFF;
-}
-
-#page-about .nav-item-about a {
-    color: #FFFFFF;
-}
-
-#page-hymns .nav-item-hymns a {
-    color: #FFFFFF;
-}
-
+#page-home .nav-item-home a,
+#page-about .nav-item-about a,
+#page-hymntexts .nav-item-hymntexts a,
+#page-hymntunes .nav-item-hymntunes a,
 #page-classhymns .nav-item-classhymns a {
     color: #FFFFFF;
 }
