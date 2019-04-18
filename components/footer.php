@@ -1,7 +1,7 @@
     <div class="container-fluid">
         <div id="footer" class="row pt-3">
             <div class="col-sm-12 text-center">
-                <p>Site built by Nathan Vick and Kellan Kreft. All hymns are public domain.</p>
+                <p>Site built by Nathan Vick and Kellan Kreft</p>
             </div>
         </div>
     </div>
