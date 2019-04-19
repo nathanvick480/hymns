@@ -4,7 +4,7 @@
 
     $hymn_number = $_GET['number'];
 
-    $sql = "SELECT id, name, topic, tune, meter, score, class, description, scripture_verse, scripture_verse_reference, audio_file_url, score_image_url, score_pdf_url FROM Hymns WHERE id=$hymn_number";
+    $sql = "SELECT id, name, topic, tune, meter, score, class, description, scripture_verse, scripture_verse_reference, audio_file_url, score_image_url, score_pdf_url, hymnary_link FROM Hymns WHERE id=$hymn_number";
     $result = $conn->query($sql);
     $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
 
@@ -19,6 +19,7 @@
         $hymn_audio = $row["audio_file_url"];
         $hymn_score_png = $row["score_image_url"];
         $hymn_score_pdf = $row["score_pdf_url"];
+        $hymnary_link = $row["hymnary_link"];
 
         $hymn_class = $row["class"];
         $hymn_class = ltrim($hymn_class,",");
@@ -57,6 +58,7 @@
                 <p>Meter: <?php echo $hymn_meter; ?></p>
                 <p>Tune: <?php echo $hymn_tune; ?> </p>
                 <p>Classes: <?php echo $hymn_class; ?></p>
+                <p>For more information about this hymn, visit <a href="<?php echo $hymnary_link; ?>" target="_blank">Hymnary.org</a>.</p>
             </div>
             <div class="col-sm-3">
                 <audio controls>
