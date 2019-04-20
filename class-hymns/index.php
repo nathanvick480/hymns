@@ -17,7 +17,7 @@
             <div class="col-sm-10">
                 <div class="card">
                     <div class="card-body">
-                        <p>The following is a list of Asbury class hymns, as stated on the <a href="https://www.asbury.edu/academics/resources/library/archives/traditions/class-traditions/" target="_blank">official Asbury University website</a>.</p>
+                        <p>The following is a list of Asbury class hymns, as stated on the <a href="https://www.asbury.edu/academics/resources/library/archives/traditions/class-traditions/" target="_blank">official Asbury University website</a>. Most class hymns are included in this collection; however, a few are not.</p>
 
                         <div class="table-responsive">
                             <table class="table table-striped">
@@ -187,7 +187,7 @@
                                     <tr>
                                         <td>1991</td>
                                         <td>Dawn Treaders</td>
-                                        <td>Wonderful Grace of Jesus</td>
+                                        <td><a href="/hymn-texts/text?number=53">Wonderful Grace of Jesus</a></td>
                                     </tr>
                                     <tr>
                                         <td>1990</td>
@@ -197,7 +197,7 @@
                                     <tr>
                                         <td>1989</td>
                                         <td>Overcomers</td>
-                                        <td>All Hail the Power</td>
+                                        <td><a href="/hymn-texts/text?number=4">All Hail the Power</a></td>
                                     </tr>
                                     <tr>
                                         <td>1988</td>
@@ -232,7 +232,7 @@
                                     <tr>
                                         <td>1982</td>
                                         <td>Defenders</td>
-                                        <td>O Worship the King</td>
+                                        <td><a href="/hymn-texts/text?number=37">O Worship the King</a></td>
                                     </tr>
                                     <tr>
                                         <td>1981</td>
@@ -247,22 +247,22 @@
                                     <tr>
                                         <td>1979</td>
                                         <td>Crusaders</td>
-                                        <td>Are Ye Able? / Praise to the Lord, the Almighty (changed)</td>
+                                        <td>Are Ye Able? / <a href="/hymn-texts/text?number=39">Praise to the Lord, the Almighty</a> (changed)</td>
                                     </tr>
                                     <tr>
                                         <td>1978</td>
                                         <td>Colonels</td>
-                                        <td>Soldiers of Christ, Arise</td>
+                                        <td><a href="/hymn-texts/text?number=41">Soldiers of Christ, Arise</a></td>
                                     </tr>
                                     <tr>
                                         <td>1977</td>
                                         <td>Vikings</td>
-                                        <td>All Hail the Power</td>
+                                        <td><a href="/hymn-texts/text?number=4">All Hail the Power</a></td>
                                     </tr>
                                     <tr>
                                         <td>1976</td>
                                         <td>Pioneers</td>
-                                        <td>God of Our Fathers, Whose Almighty Hand</td>
+                                        <td><a href="/hymn-texts/text?number=14">God of Our Fathers, Whose Almighty Hand</a></td>
                                     </tr>
                                     <tr>
                                         <td>1975</td>
@@ -287,22 +287,22 @@
                                     <tr>
                                         <td>1971</td>
                                         <td>Aztecs</td>
-                                        <td>Soldiers of Christ, Arise</td>
+                                        <td><a href="/hymn-texts/text?number=41">Soldiers of Christ, Arise</a></td>
                                     </tr>
                                     <tr>
                                         <td>1970</td>
                                         <td>Valiants</td>
-                                        <td>God of Our Fathers, Whose Almighty Hand</td>
+                                        <td><a href="/hymn-texts/text?number=14">God of Our Fathers, Whose Almighty Hand</a></td>
                                     </tr>
                                     <tr>
                                         <td>1969</td>
                                         <td>Knights</td>
-                                        <td>Stand Up, Stand Up for Jesus</td>
+                                        <td><a href="/hymn-texts/text?number=42">Stand Up, Stand Up for Jesus</a></td>
                                     </tr>
                                     <tr>
                                         <td>1968</td>
                                         <td>Sentinels</td>
-                                        <td>All Hail the Power</td>
+                                        <td><a href="/hymn-texts/text?number=4">All Hail the Power</a></td>
                                     </tr>
                                     <tr>
                                         <td>1967</td>
@@ -312,17 +312,17 @@
                                     <tr>
                                         <td>1966</td>
                                         <td>Vanguards</td>
-                                        <td>[Lead On, O King Eternal]</td>
+                                        <td>[<a href="/hymn-texts/text?number=28">Lead On, O King Eternal</a>]</td>
                                     </tr>
                                     <tr>
                                         <td>1965</td>
                                         <td>Conquerors</td>
-                                        <td>Crown Him with Many Crowns</td>
+                                        <td><a href="/hymn-texts/text?number=12">Crown Him with Many Crowns</a></td>
                                     </tr>
                                     <tr>
                                         <td>1964</td>
                                         <td>Vikings</td>
-                                        <td>O for a Thousand Tongues</td>
+                                        <td><a href="/hymn-texts/text?number=35">O for a Thousand Tongues</a></td>
                                     </tr>
                                     <tr>
                                         <td>1963</td>
@@ -332,12 +332,12 @@
                                     <tr>
                                         <td>1962</td>
                                         <td>Explorers</td>
-                                        <td>God of Our Fathers, Whose Almighty Hand</td>
+                                        <td><a href="/hymn-texts/text?number=14">God of Our Fathers, Whose Almighty Hand</a></td>
                                     </tr>
                                     <tr>
                                         <td>1961</td>
                                         <td>Pioneers</td>
-                                        <td>Lead On, O King Eternal</td>
+                                        <td><a href="/hymn-texts/text?number=28">Lead On, O King Eternal</a></td>
                                     </tr>
                                     <tr>
                                         <td>1960</td>
@@ -347,12 +347,12 @@
                                     <tr>
                                         <td>1959</td>
                                         <td>Chevaliers</td>
-                                        <td>Soldiers of Christ, Arise</td>
+                                        <td><a href="/hymn-texts/text?number=41">Soldiers of Christ, Arise</a></td>
                                     </tr>
                                     <tr>
                                         <td>1958</td>
                                         <td>Cahoks</td>
-                                        <td>All Hail the Power</td>
+                                        <td><a href="/hymn-texts/text?number=4">All Hail the Power</a></td>
                                     </tr>
                                     <tr>
                                         <td>1957</td>
@@ -367,17 +367,17 @@
                                     <tr>
                                         <td>1955</td>
                                         <td>Spartans</td>
-                                        <td>Soldiers of Christ, Arise</td>
+                                        <td><a href="/hymn-texts/text?number=41">Soldiers of Christ, Arise</a></td>
                                     </tr>
                                     <tr>
                                         <td>1954</td>
                                         <td>Olympians</td>
-                                        <td>A Charge to Keep I Have</td>
+                                        <td><a href="/hymn-texts/text?number=1">A Charge to Keep I Have</a></td>
                                     </tr>
                                     <tr>
                                         <td>1953</td>
                                         <td>Beavers</td>
-                                        <td>Lead On, O King Eternal</td>
+                                        <td><a href="/hymn-texts/text?number=28">Lead On, O King Eternal</a></td>
                                     </tr>
                                     <tr>
                                         <td>1952</td>
@@ -387,7 +387,7 @@
                                     <tr>
                                         <td>1951</td>
                                         <td>Trojans</td>
-                                        <td>Soldiers of Christ, Arise</td>
+                                        <td><a href="/hymn-texts/text?number=41">Soldiers of Christ, Arise</a></td>
                                     </tr>
                                     <tr>
                                         <td>1950</td>
@@ -402,7 +402,7 @@
                                     <tr>
                                         <td>1948</td>
                                         <td>Cardinals</td>
-                                        <td>Lead On, O King Eternal</td>
+                                        <td><a href="/hymn-texts/text?number=28">Lead On, O King Eternal</a></td>
                                     </tr>
                                     <tr>
                                         <td>1947</td>
@@ -412,7 +412,7 @@
                                     <tr>
                                         <td>1946</td>
                                         <td>Warriors</td>
-                                        <td>[A Charge to Keep I Have]</td>
+                                        <td>[<a href="/hymn-texts/text?number=1">A Charge to Keep I Have</a>]</td>
                                     </tr>
                                     <tr>
                                         <td>1945</td>
@@ -422,12 +422,12 @@
                                     <tr>
                                         <td>1944</td>
                                         <td>Tigers</td>
-                                        <td>Lead On, O King Eternal</td>
+                                        <td><a href="/hymn-texts/text?number=28">Lead On, O King Eternal</a></td>
                                     </tr>
                                     <tr>
                                         <td>1943</td>
                                         <td>Admirals</td>
-                                        <td>[A Charge to Keep I Have]</td>
+                                        <td>[<a href="/hymn-texts/text?number=1">A Charge to Keep I Have</a>]</td>
                                     </tr>
                                     <tr>
                                         <td>1942</td>
