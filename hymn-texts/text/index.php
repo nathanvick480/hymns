@@ -4,7 +4,7 @@
 
     $hymn_number = $_GET['number'];
 
-    $sql = "SELECT id, name, topic, tune, meter, score, class, description, scripture_verse, scripture_verse_reference, audio_file_url, score_image_url, score_pdf_url, hymnary_link FROM Hymns WHERE id=$hymn_number";
+    $sql = "SELECT id, name, topic, tune, meter, score, class, description, scripture_verse, scripture_verse_reference, audio_file_url, score_image_url, score_pdf_url, hymnary_link, copyright_status FROM Hymns WHERE id=$hymn_number";
     $result = $conn->query($sql);
     $row=mysqli_fetch_array($result,MYSQLI_ASSOC);
 
@@ -20,11 +20,16 @@
         $hymn_score_png = $row["score_image_url"];
         $hymn_score_pdf = $row["score_pdf_url"];
         $hymnary_link = $row["hymnary_link"];
+        $copyright = $row["copyright_status"];
 
         $hymn_class = $row["class"];
         $hymn_class = ltrim($hymn_class,",");
         $hymn_class = rtrim($hymn_class,",");
         $hymn_class = str_replace(",",", ",$hymn_class);
+
+        $hymn_id = $row["id"];
+        $previous = $hymn_id - 1;
+        $next = $hymn_id + 1;
 
 
     include '../../components/header.php';
@@ -44,7 +49,7 @@
     </div>
     <div class="container-fluid pt-3 pb-4">
         <div class="row justify-content-center">
-            <div class="col-sm-6">
+            <div class="col-md-6 mb-3">
                 <div class="card mb-3">
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
@@ -54,21 +59,66 @@
                     </div>
                 </div>
                 <p><?php echo $hymn_desc; ?></p>
-                <p>Topic: <?php echo $hymn_topic; ?></p>
-                <p>Meter: <?php echo $hymn_meter; ?></p>
-                <p>Tune: <?php echo $hymn_tune; ?> </p>
-                <p>Classes: <?php echo $hymn_class; ?></p>
-                <p>For more information about this hymn, visit <a href="<?php echo $hymnary_link; ?>" target="_blank">Hymnary.org</a>.</p>
-            </div>
-            <div class="col-sm-3">
-                <audio controls>
-                    <source src="<?php echo $hymn_audio; ?>" type="audio/mpeg">
-                </audio>
-                <div class="card mt-3">
-                    <a href="<?php echo $hymn_score_pdf; ?>" target="_blank">
-                        <img src="<?php echo $hymn_score_png; ?>" class="img-fluid">
-                    </a>
+                <hr />
+                <div class="hymn-meta mb-3">
+                    <div class="row">
+                        <div id="hymn-meta-topic" class="col-md-3">
+                            <p class="hymn-meta-heading">Topic</p>
+                            <p><?php echo $hymn_topic; ?></p>
+                        </div>
+                        <div id="hymn-meta-meter" class="col-md-3">
+                            <p class="hymn-meta-heading">Meter</p>
+                            <p><?php echo $hymn_meter; ?></p>
+                        </div>
+                        <div id="hymn-meta-tune" class="col-md-3">
+                            <p class="hymn-meta-heading">Tune</p>
+                            <p><?php echo $hymn_tune; ?></p>
+                        </div>
+                        <div id="hymn-meta-classes" class="col-md-3">
+                            <p class="hymn-meta-heading">Classes</p>
+                            <p><?php echo $hymn_class; ?></p>
+                        </div>
+                    </div>
+                    <hr />
+                    <p><em>For more information about this hymn, visit <a href="<?php echo $hymnary_link; ?>">Hymnary.org</a>.</em></p>
                 </div>
+
+                <hr />
+
+                <div class="d-flex justify-content-between">
+                <?php
+                    if ($previous != 0) { ?>
+                        <a href="/hymn-texts/text?number=<?php echo $previous; ?>" class="mr-auto"><i class="fas fa-chevron-left mr-2"></i>Previous</a>
+                    <?php }
+                    if ($next != 54) { ?>
+                        <a href="/hymn-texts/text?number=<?php echo $next; ?>" class="ml-auto">Next<i class="fas fa-chevron-right ml-2"></i></a>
+                    <?php }
+                ?>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <?php
+                    if ($copyright == "publicdomain") {
+                ?>
+                        <audio controls>
+                            <source src="<?php echo $hymn_audio; ?>" type="audio/mpeg">
+                        </audio>
+                        <div class="card mt-3">
+                            <a href="<?php echo $hymn_score_pdf; ?>" target="_blank" class="btn btn-outline-primary m-3"><i class="fas fa-file-alt pr-2"></i>Download Sheet Music</a>
+                            <a href="<?php echo $hymn_score_pdf; ?>" target="_blank">
+                                <img src="<?php echo $hymn_score_png; ?>" class="img-fluid">
+                            </a>
+                        </div>
+                <?php
+                    } elseif ($copyright == "copyrighted") {
+                ?>
+                        <div class="card mt-3">
+                            <div class="card-body">
+                                <p class="mb-0">This hymn is copyrighted. Sheet music may be available in a hymnal at your local church or on <a href="<?php echo $hymnary_link; ?>">Hymnary.org</a>.</p>
+                            </div>
+                        </div>
+                 <?php   } ?>
             </div>
         </div>
     </div>

@@ -15,6 +15,32 @@ h1, h2, h3 {
     padding-right: 3px;
 }
 
+.btn-outline-primary {
+    border-color: #372400;
+    border-width: 2px;
+    color: #372400;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+    background-color: #372400;
+    border-color: #372400;
+    color: #FFFFFF;
+}
+
+.btn-outline-secondary {
+    border-color: #29524A;
+    border-width: 2px;
+    color: #29524A;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+    background-color: #29524A;
+    border-color: #29524A;
+    color: #FFFFFF;
+}
+
 /*** MENU STYLES ***/
 
 #page-home .nav-item-home a,
@@ -66,6 +92,21 @@ h1, h2, h3 {
 
 audio {
     width: 100%;
+}
+
+.hymn-meta p {
+    margin-bottom: 0px;
+    word-wrap: break-word;
+}
+
+.hymn-meta .hymn-meta-heading {
+    font-size: 75%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hymn-meta #hymn-meta-classes {
+    text-transform: capitalize;
 }
 
 .breadcrumb {
