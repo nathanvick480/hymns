@@ -113,7 +113,7 @@
                 <?php
                     } elseif ($copyright == "copyrighted") {
                 ?>
-                        <div class="card mt-3">
+                        <div class="card">
                             <div class="card-body">
                                 <p class="mb-0">This hymn is copyrighted. Sheet music may be available in a hymnal at your local church or on <a href="<?php echo $hymnary_link; ?>">Hymnary.org</a>.</p>
                             </div>
