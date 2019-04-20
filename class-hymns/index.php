@@ -17,7 +17,7 @@
             <div class="col-sm-10">
                 <div class="card">
                     <div class="card-body">
-                        <p>The following is a list of Asbury class hymns, as stated on the <a href="https://www.asbury.edu/academics/resources/library/archives/traditions/class-traditions/" target="_blank">official Asbury University website</a>. Most class hymns are included in this collection; however, a few are not.</p>
+                        <p>For over eight decades, every Asbury University class has selected a specific hymn to represent their identity. The following is a list of Asbury class hymns, as stated on the <a href="https://www.asbury.edu/academics/resources/library/archives/traditions/class-traditions/" target="_blank">official Asbury University website</a>. Since classes, especially today, tend to pick hymns which are well known in the Asbury community, the majority of class hymns are included in this collection. A few, however, did not match the <em>Asbury Hymn Project's</em>selection criteria and are therefore not linked to below.</p>
 
                         <div class="table-responsive">
                             <table class="table table-striped">
