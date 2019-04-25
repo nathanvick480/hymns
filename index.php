@@ -45,7 +45,7 @@
         </div>
         <div class="row justify-content-center py-3">
             <div class="col-sm-8">
-                <p>For nearly a century, hymns have been a part of Asbury University's heritage. Every class since the Blue Jay Class of 1931 has chosen a hymn to represent and identify them during their four years as students at Asbury. The hymn follows the class even after graduation: the annual Reunion alumni event highlights includes an evening of singing hymns in Hughes Auditorium.</p>
+                <p>For nearly a century, hymns have been a part of Asbury University's heritage. Every class since 1937 has chosen a hymn to represent and identify them during their four years as students at Asbury. The hymn follows the class even after graduation: the annual Reunion alumni event highlights includes an evening of singing hymns in Hughes Auditorium.</p>
 
                 <p>Yet hymns are losing awareness at Asbury. Although each class still selects a class hymn, and in fact many of these hymns are recent compositions, much of the music sung in chapel has transitioned to more contemporary forms. While contemporary music is not itself bad, the loss of hymn awareness represents a loss of Asbury heritage and a disconnection from centuries of Christian music. Hymns have a special place in Christianity, and there is far more to them than meets the eye.</p>
 

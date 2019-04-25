@@ -19,7 +19,7 @@
                     <div class="card-body">
                         <p>Have you ever wondered why hymns so often rhyme? Hymn texts (or lyrics) are actualy poems which are meant to be sung. Each verse of the hymn is a stanza of the poem, and the poem as a whole follows a specific meter. This means that it's possible to sing any hymn text to any tune which follows the same meter! As you'll learn on the <a href="/about/">About</a> page, this makes it much easier for congregations to learn new hymns&mdash;they may already know the tune and just need to pair different words with it.</p>
 
-                        <p>The following is an alphabetic list of all hymn texts in the <i>Asbury Hymn Project's</i> collection. Not every hymn text in this list has been chosen as a class hymn, but all texts listed below have a special status within the Asbury community. Learn more about the selection process on the <a href="/about">About</a> page.</p>
+                        <p>The following is an alphabetic list of all hymn texts in the <i>Asbury Hymn Project's</i> collection. Not every text in this list has been chosen as a class hymn, but all texts listed below have a special status within the Asbury community. Learn more about the selection process on the <a href="/about">About</a> page.</p>
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>
