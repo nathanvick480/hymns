@@ -19,7 +19,7 @@
                     <div class="card-body">
                         <p>When we speak of a hymn, we're most often referring to the hymn text: "And Can It Be," Great Is Thy Faithfulness," etc. Each of these texts, is most often sung to a particular tune. Each tune has its own name (spelled in capital letters to distinguish tunes from texts). Fascinatingly, a hymn text can be sung to any tune which matches its meter. The reason for this is that hymns are intended to be sung by congregations, not all of whom may be musically inclined. If a new hymn text is paired with a tune the congregation already knows, they will pick it up much more quickly than if they had to learn a new tune as well.</p>
 
-                        <p>The following is an alphabetic list of all hymn tunes in the <i>Asbury Hymn Project's</i> collection. Because this collection is relatively small and specific (there are thousands of hymns in existence), most tunes in this list are not associated with multiple hymns. Additionally, more recent hymns may not have traditional hymn tune names. In these cases, the author's name has been substituted for the tune name.</p>
+                        <p>The following is an alphabetic list of all hymn tunes in the Asbury Hymn Project's collection. Because this collection is relatively small and specific (there are thousands of hymns in existence), most tunes in this list are not associated with multiple hymns. Additionally, more recent hymns may not have traditional hymn tune names. In these cases, the author's name has been substituted for the tune name.</p>
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>
