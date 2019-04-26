@@ -35,7 +35,7 @@
     include '../../components/header.php';
 ?>
 
-    <title>Asbury Hymn Project</title>
+    <title><?php echo $hymn_name; ?> | Asbury Hymn Project</title>
 </head>
 
 <body id="page-hymn">
