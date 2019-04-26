@@ -3,8 +3,15 @@ body {
     font-family: 'Lato', 'Helvetica', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Noto Serif SC', 'Lato', 'Helvetica', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 #navbar.navbar-dark {
